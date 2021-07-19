@@ -1,8 +1,3 @@
-// const PS = new PerfectScrollbar("#cells", {
-//     wheelSpeed: 12,
-//     wheelPropagation: true,
-// });
-
 function findRowCOl(ele) {
     let idArray = $(ele).attr("id").split("-");
     let rowId = parseInt(idArray[1]);
